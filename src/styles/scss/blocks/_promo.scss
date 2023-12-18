@@ -1,10 +1,10 @@
 .promo {
 	min-height: 800px;
+	padding: 38px 0 61px 0;
 	background: url('../../assets/img/bg/main_bg.png') center center / cover
 		no-repeat;
 
 	&__logo {
-		padding: 38px 0 61px 0;
 		&-icon {
 			display: block;
 			margin: 0 auto;
@@ -22,8 +22,13 @@
 		}
 	}
 
-	h1 {
+	h1.title {
 		margin-top: 53px;
+	}
+
+	&__simple {
+		display: flex;
+		justify-content: center;
 	}
 
 	h2.title {
@@ -44,13 +49,19 @@
 		}
 	}
 	&__more {
-		margin-top: 71px;
+		margin-top: 72px;
 		&-text {
-			color: #fff;
+			color: rgba($color: #fff, $alpha: 0.5);
 			font-size: 15px;
 			font-weight: 100;
-			line-height: 24px; /* 160% */
+			line-height: 24px;
 			text-transform: uppercase;
+			text-align: center;
+		}
+		&-img {
+			display: block;
+			margin: 0 auto;
+			margin-top: 12px;
 		}
 	}
 }
