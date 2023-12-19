@@ -1,0 +1,20 @@
+.footer {
+	color: #888;
+	min-height: 167px;
+	background: #1a1a1a;
+	padding: 57px 0 69px 0;
+	&__info {
+		width: 410px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	&__info-links {
+		margin-bottom: 10px;
+	}
+	&__underline {
+		text-decoration: underline;
+	}
+	a {
+		color: #888;
+	}
+}
