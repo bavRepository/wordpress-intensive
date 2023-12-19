@@ -1,0 +1,29 @@
+.optimization {
+	min-height: 550px;
+	padding: 108px 0 74px 0px;
+	.container {
+		position: relative;
+		padding-left: 389px;
+	}
+	&__text {
+		margin-top: 25px;
+		color: #4a4a4a;
+		font-size: 17px;
+		font-weight: 300;
+		line-height: 27px;
+		span {
+			color: #4a4a4a;
+			font-size: 17px;
+			font-weight: 700;
+		}
+	}
+	&__img {
+		width: 868px;
+		height: 502px;
+		display: block;
+		position: absolute;
+		bottom: -74px;
+		left: -240px;
+		z-index: -1;
+	}
+}

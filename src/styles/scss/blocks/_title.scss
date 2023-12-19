@@ -13,11 +13,19 @@
 		line-height: 80px;
 	}
 
-	&_fz30 {
+	&_fz30dark {
 		color: #252525;
 		font-size: 30px;
 		font-weight: 400;
 		line-height: 30px;
+	}
+
+	&_fz30 {
+		color: #299cbd;
+		font-size: 30px;
+		font-weight: 900;
+		line-height: 30px;
+		text-transform: uppercase;
 	}
 
 	&_fz23 {
