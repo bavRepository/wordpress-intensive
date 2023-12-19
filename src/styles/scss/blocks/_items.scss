@@ -1,4 +1,4 @@
-.item {
+.item-square-shape {
 	min-height: 310px;
 	width: 342px;
 	&__img {
@@ -13,5 +13,32 @@
 		font-size: 15px;
 		font-weight: 300;
 		line-height: 21px;
+	}
+}
+
+.item-round-shape {
+	width: 204px;
+
+	&__round {
+		margin: 0 auto;
+		width: 118px;
+		height: 118px;
+		border-radius: 100%;
+		background-color: #b4e2ff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__img {
+		width: 67px;
+		height: 48px;
+	}
+	&__desc {
+		color: rgba($second-color, $alpha: 0.8);
+		margin-top: 24.5px;
+		text-align: center;
+		font-size: 17px;
+		font-weight: 300;
+		line-height: 20px;
 	}
 }
