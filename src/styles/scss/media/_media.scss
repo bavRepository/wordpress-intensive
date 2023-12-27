@@ -1,4 +1,7 @@
 @media (max-width: 1199.98px) {
+	.container {
+		max-width: 960px;
+	}
 	.promo {
 		.title.title_fz80.title_lines {
 			&:before {
@@ -25,6 +28,9 @@
 }
 
 @media (max-width: 991.98px) {
+	.container {
+		max-width: 720px;
+	}
 	.promo {
 		h1.title {
 			margin-top: 35px;
@@ -75,6 +81,9 @@
 	}
 }
 @media (max-width: 767.98px) {
+	.container {
+		max-width: 540px;
+	}
 	.waiting {
 		padding: 38px 0 50px 0;
 		.waiting__title {
@@ -125,3 +134,5 @@
 		}
 	}
 }
+
+/* 576 is next * have fun good luck */
